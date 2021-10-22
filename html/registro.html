@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!-- formulario para el login -->
+    <form>
+        <div class="form_content">
+            <h2>Registrarse</h2>
+            <div><label>Ingrese su usuario</label></div>
+            <div>
+                <input class="texto" type="text" id="nuevoUsuario">
+            </div>
+            <label>Contraseña</label>
+            <div>
+                <input class="texto" type="password" id="nuevoPassword">
+            </div>
+            <div></div>
+            <button class="btn" type="button" onclick="registrarUsuario()">Registrarse</button>
+            <a class="aaa" href="../index.html">Regresar</a>
+        </div>
+    </form>
+    <script src="../js/login.js" async defer></script>
+</body>
+
+</html>
