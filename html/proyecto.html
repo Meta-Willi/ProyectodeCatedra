@@ -10,8 +10,9 @@
 
 <body>
   <!-- Formulario de Préstamos -->
-  <form id="formTask">
-    <h1> Registra el objeto a prestar. </h1>
+  <div class="wrapper">
+  <form class="form" id="formTask">
+    <h1> Formulario de Préstamos </h1>
     <div class="form-group">
       <input type="text" id="title" placeholder="Nombre" class="form-control">
     </div>
@@ -22,11 +23,9 @@
     <div class="form-group">
       <input type="text" id="categoria" placeholder="Categoria" class="form-control"></input>
     </div>
-    </div>
-    <div id="oculto">
-      <h1> Registra el prestador del objeto. </h1>
+    
       <div class="form-group">
-        <input type="text" id="prestador" placeholder="Nombre" class="form-control">
+        <input type="text" id="prestador" placeholder="Prestador" class="form-control">
       </div>
       <div class="form-group">
         <textarea id="padre" placeholder="Parentezco" class="form-control"></textarea>
@@ -47,9 +46,11 @@
         <input type="date" id="fechad" class="form-control"></input>
       </div>
       <br>
+      <button type="submit" class="btn" onclick="validar();">Guardar</button>
     </div>
-    <button type="submit" class="" onclick="validar();">Guardar</button>
+    
   </form>
+  </div>
   <div class="">
     <table>
 
