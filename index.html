@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!-- formulario para el login -->
+    <form>
+        <div class="form_content">
+            <h2>Login de e-borrowing</h2>
+            <div><label>Usuario</label></div>
+            <div>
+                <input class="texto" type="text" id="username" placeholder=" Nombre">
+            </div>            
+            <label >Contraseña</label>
+            <div>
+                <input class="texto" type="password" id="password" placeholder=" Contraseña">
+            </div>
+            <a class="btn" href="html/proyecto.html" onclick="login()">Login</a>
+            
+                    <p> ¿Aún no tienes una cuenta? <a href="html/registro.html" class="aaa">Registrate</a></p>
+        </div>
+    </form>
+    <script src="js/login.js" async defer></script>
+</body>
+
+</html>

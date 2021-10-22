@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Préstamos</title>
+  <link rel="stylesheet" href="../css/edit.css">
+  <link rel="stylesheet" href="../css/table.scss">
+</head>
+
+<body>
+  <!-- Formulario de Préstamos -->
+  <form id="formTask">
+    <h1> Registra el objeto a prestar. </h1>
+    <div class="form-group">
+      <input type="text" id="title" placeholder="Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+      <textarea id="description" cols="30" rows="10" placeholder="Agrega una descripción del préstamo"
+        class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="text" id="categoria" placeholder="Categoria" class="form-control"></input>
+    </div>
+    </div>
+    <div id="oculto">
+      <h1> Registra el prestador del objeto. </h1>
+      <div class="form-group">
+        <input type="text" id="prestador" placeholder="Nombre" class="form-control">
+      </div>
+      <div class="form-group">
+        <textarea id="padre" placeholder="Parentezco" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Correo" class="form-control"></input>
+      </div>
+      <div class="form-group">
+        <input type="number" id="cell" placeholder="Numero de celular" class="form-control"></input>
+      </div>
+      <label for="name">Fecha del prestamo:</label>
+      <div class="form-group">
+        <input type="date" id="fechap" class="form-control"></input>
+      </div>
+      <br>
+      <label for="name">Fecha de devoción:</label>
+      <div class="form-group">
+        <input type="date" id="fechad" class="form-control"></input>
+      </div>
+      <br>
+    </div>
+    <button type="submit" class="" onclick="validar();">Guardar</button>
+  </form>
+  <div class="">
+    <table>
+
+    </table>
+    <div id="tasks">
+    </div>
+
+  </div>
+  <script src="../js/app.js"> </script>
+  </div>
+</body>
+
+</html>
